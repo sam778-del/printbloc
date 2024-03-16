@@ -1,0 +1,585 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\helpers\\qrcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:helpers\\qrcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\helpers\\deviceidmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:helpers\\deviceidmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\helpers\\deviceinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:helpers\\deviceinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\helpers\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:helpers\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\viewmodels\\currentuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:viewmodels\\currentuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\helpers\\printermonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:helpers\\printermonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\helpers\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:helpers\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\loginpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\loginpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\helpers\\apibaseurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:helpers\\apibaseurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\utils\\gridlengthvalueconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:utils\\gridlengthvalueconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Adeshina\\.nuget\\packages\\zxing\\2.1.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\loginpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\loginpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\assets\\menustyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:assets\\menustyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\viewmodels\\menuitemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:viewmodels\\menuitemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\profile\\exit.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\profile\\exit.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\profile\\header.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\profile\\header.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\settings\\settings.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\settings\\settings.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\settings\\header.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\settings\\header.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\profile\\settings.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\profile\\settings.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\printblocproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:printblocproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\settings\\settings.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\settings\\settings.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\settings\\header.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\settings\\header.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\profile\\header.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\profile\\header.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\profile\\exit.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\profile\\exit.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\views\\profile\\settings.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:views\\profile\\settings.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\assets\\loginandregisterpagesstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:assets\\loginandregisterpagesstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|c:\\users\\adeshina\\downloads\\printblocproject\\models\\icurrentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D8408E-0964-4D1B-A6A6-B17350C262CE}|PrintblocProject.csproj|solutionrelative:models\\icurrentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T10:52:06.745Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T10:50:47.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeviceIdManager.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\DeviceIdManager.cs",
+              "RelativeDocumentMoniker": "Helpers\\DeviceIdManager.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\DeviceIdManager.cs",
+              "RelativeToolTip": "Helpers\\DeviceIdManager.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T23:34:26.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\Extensions.cs",
+              "RelativeDocumentMoniker": "Helpers\\Extensions.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\Extensions.cs",
+              "RelativeToolTip": "Helpers\\Extensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T05:18:57.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CurrentUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\ViewModels\\CurrentUserViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CurrentUserViewModel.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\ViewModels\\CurrentUserViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CurrentUserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T11:16:04.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceInformation.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\DeviceInformation.cs",
+              "RelativeDocumentMoniker": "Helpers\\DeviceInformation.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\DeviceInformation.cs",
+              "RelativeToolTip": "Helpers\\DeviceInformation.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAJAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T23:27:46.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Qrcode.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\Qrcode.cs",
+              "RelativeDocumentMoniker": "Helpers\\Qrcode.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\Qrcode.cs",
+              "RelativeToolTip": "Helpers\\Qrcode.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAvwI8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T18:18:37.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\AccountManager.cs",
+              "RelativeDocumentMoniker": "Helpers\\AccountManager.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\AccountManager.cs",
+              "RelativeToolTip": "Helpers\\AccountManager.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAABUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T23:18:12.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-03T23:55:12.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginPage.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\LoginPage.axaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\LoginPage.axaml",
+              "RelativeToolTip": "Views\\LoginPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T10:35:11.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PrinterMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\PrinterMonitor.cs",
+              "RelativeDocumentMoniker": "Helpers\\PrinterMonitor.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\PrinterMonitor.cs",
+              "RelativeToolTip": "Helpers\\PrinterMonitor.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAABBwBoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T23:30:36.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiBaseUrl.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\ApiBaseUrl.cs",
+              "RelativeDocumentMoniker": "Helpers\\ApiBaseUrl.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Helpers\\ApiBaseUrl.cs",
+              "RelativeToolTip": "Helpers\\ApiBaseUrl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T23:17:13.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GridLengthValueConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Utils\\GridLengthValueConverter.cs",
+              "RelativeDocumentMoniker": "Utils\\GridLengthValueConverter.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Utils\\GridLengthValueConverter.cs",
+              "RelativeToolTip": "Utils\\GridLengthValueConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T20:16:06.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T10:53:38.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "ViewModels\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T20:00:07.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\.nuget\\packages\\zxing\\2.1.1\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\zxing\\2.1.1\\readme.txt",
+              "ToolTip": "C:\\Users\\Adeshina\\.nuget\\packages\\zxing\\2.1.1\\readme.txt",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\zxing\\2.1.1\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-03T19:36:15.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginPage.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\LoginPage.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.axaml.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\LoginPage.axaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T10:35:09.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\App.axaml",
+              "RelativeDocumentMoniker": "App.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\App.axaml",
+              "RelativeToolTip": "App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T11:38:51.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Exit.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Exit.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\Profile\\Exit.axaml.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Exit.axaml.cs",
+              "RelativeToolTip": "Views\\Profile\\Exit.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:44:09.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Header.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Header.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\Profile\\Header.axaml.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Header.axaml.cs",
+              "RelativeToolTip": "Views\\Profile\\Header.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:44:49.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MenuStyles.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Assets\\MenuStyles.axaml",
+              "RelativeDocumentMoniker": "Assets\\MenuStyles.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Assets\\MenuStyles.axaml",
+              "RelativeToolTip": "Assets\\MenuStyles.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T17:57:30.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MenuItemObject.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\ViewModels\\MenuItemObject.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MenuItemObject.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\ViewModels\\MenuItemObject.cs",
+              "RelativeToolTip": "ViewModels\\MenuItemObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T18:05:43.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Header.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Settings\\Header.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\Settings\\Header.axaml.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Settings\\Header.axaml.cs",
+              "RelativeToolTip": "Views\\Settings\\Header.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:45:08.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Settings.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Settings\\Settings.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\Settings\\Settings.axaml.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Settings\\Settings.axaml.cs",
+              "RelativeToolTip": "Views\\Settings\\Settings.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:45:19.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Settings.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Settings.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\Profile\\Settings.axaml.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Settings.axaml.cs",
+              "RelativeToolTip": "Views\\Profile\\Settings.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T17:44:59.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PrintblocProject.csproj",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\PrintblocProject.csproj",
+              "RelativeDocumentMoniker": "PrintblocProject.csproj",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\PrintblocProject.csproj",
+              "RelativeToolTip": "PrintblocProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-03T17:35:24.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Settings.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Settings\\Settings.axaml",
+              "RelativeDocumentMoniker": "Views\\Settings\\Settings.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Settings\\Settings.axaml",
+              "RelativeToolTip": "Views\\Settings\\Settings.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T17:32:16.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Header.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Settings\\Header.axaml",
+              "RelativeDocumentMoniker": "Views\\Settings\\Header.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Settings\\Header.axaml",
+              "RelativeToolTip": "Views\\Settings\\Header.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T17:31:57.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Header.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Header.axaml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Header.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Header.axaml",
+              "RelativeToolTip": "Views\\Profile\\Header.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T17:31:17.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Exit.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Exit.axaml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Exit.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Exit.axaml",
+              "RelativeToolTip": "Views\\Profile\\Exit.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T17:31:03.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Settings.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Settings.axaml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Settings.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Views\\Profile\\Settings.axaml",
+              "RelativeToolTip": "Views\\Profile\\Settings.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T17:30:39.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginAndRegisterPagesStyles.axaml",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Assets\\LoginAndRegisterPagesStyles.axaml",
+              "RelativeDocumentMoniker": "Assets\\LoginAndRegisterPagesStyles.axaml",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Assets\\LoginAndRegisterPagesStyles.axaml",
+              "RelativeToolTip": "Assets\\LoginAndRegisterPagesStyles.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T11:35:35.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICurrentUser.cs",
+              "DocumentMoniker": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Models\\ICurrentUser.cs",
+              "RelativeDocumentMoniker": "Models\\ICurrentUser.cs",
+              "ToolTip": "C:\\Users\\Adeshina\\Downloads\\PrintblocProject\\Models\\ICurrentUser.cs",
+              "RelativeToolTip": "Models\\ICurrentUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T11:16:01.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

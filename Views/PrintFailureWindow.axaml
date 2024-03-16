@@ -1,0 +1,35 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+		WindowStartupLocation="CenterScreen"
+        x:Class="PrintblocProject.PrintFailureWindow"
+		Icon="/Assets/Icon.ico"
+        Title="Printing Failed" Height="200" Width="300">
+      <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Offset="0" Color="#FF0000"/>
+                <!-- Red color -->
+                <GradientStop Offset="1" Color="#800000"/>
+                <!-- Darker red color -->
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Viewbox Grid.Row="0">
+            <!-- Add an 'X' or any other failure icon here -->
+            <TextBlock Text="✘" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Foreground="White"/>
+        </Viewbox>
+
+        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10">
+            <TextBlock Text="Print failed" FontSize="18" Foreground="White" HorizontalAlignment="Center"/>
+            <Button Content="Close" Click="CloseButton_Click" Padding="10,5" Background="White" Foreground="Black" Margin="10,10"/>
+        </StackPanel>
+    </Grid>
+</Window>

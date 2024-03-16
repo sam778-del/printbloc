@@ -1,0 +1,35 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+		WindowStartupLocation="CenterScreen"
+        x:Class="PrintblocProject.PrintSuccessWindow"
+		Icon="/Assets/Icon.ico"
+        Title="Printing Successful" Background="White" Height="200" Width="300">
+	<Grid>
+		<Grid.Background>
+			<LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+				<GradientStop Offset="0" Color="#00FF00"/>
+				<!-- Green color -->
+				<GradientStop Offset="1" Color="#F2F2F2"/>
+				<!-- Darker green color -->
+			</LinearGradientBrush>
+		</Grid.Background>
+
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<Viewbox Grid.Row="0">
+			<!-- Add a checkmark or any other success icon here -->
+			<TextBlock Text="✔" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Foreground="White"/>
+		</Viewbox>
+
+		<StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10">
+			<TextBlock Text="Print is successful" FontSize="18" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+			<Button Content="Close" Click="CloseButton_Click" Padding="10,5" HorizontalAlignment="Center" Background="White" Foreground="Black" VerticalAlignment="Center" Margin="10,10"/>
+		</StackPanel>
+	</Grid>
+</Window>

@@ -1,0 +1,53 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+			 xmlns:vm="using:PrintblocProject.ViewModels"
+			 x:DataType="vm:MainWindowViewModel"
+			 xmlns:sys="clr-namespace:System;assembly=netstandard"
+			 xmlns:progRing="clr-namespace:AvaloniaProgressRing;assembly=AvaloniaProgressRing"
+             x:Class="PrintblocProject.SplashScreen"
+			 Background="White">
+	<Grid>
+		<Grid.Background>
+			<ImageBrush
+				Source="/Assets/background.png"
+				Stretch="None"
+				SourceRect="0,0,152,152"
+				DestinationRect="0,0,152,152"
+				TileMode="Tile" />
+		</Grid.Background>
+		<Grid ShowGridLines="False"
+		  MaxWidth="380"
+		  MaxHeight="600"
+		  HorizontalAlignment="Center"
+		  VerticalAlignment="Center"
+		  RowDefinitions="150,320,130">
+			<StackPanel
+				Grid.Row="1"
+				MaxWidth="380"
+				HorizontalAlignment="Center">
+				<progRing:ProgressRing
+					 Width="80"
+					 Height="80"
+					 IsActive="True"
+					 HorizontalAlignment="Center"
+					 VerticalAlignment="Center"
+					 Foreground="#0d1137"
+					 IsHitTestVisible="False"
+								
+				/>
+				<TextBlock
+					Text="{Binding SplashTitle}"
+					FontWeight="Bold" 
+					FontSize="16"
+					HorizontalAlignment="Center"
+					VerticalAlignment="Center"
+					Margin="0,50,0,0"
+					Foreground="Black" 
+				/>
+			</StackPanel>
+		</Grid>
+	</Grid>
+</UserControl>

@@ -1,0 +1,198 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:PrintblocProject.ViewModels"
+		xmlns:views="clr-namespace:PrintblocProject"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:interactivity="clr-namespace:Avalonia.Xaml.Interactivity;assembly=Avalonia.Xaml.Interactivity"
+		xmlns:core="clr-namespace:Avalonia.Xaml.Interactions.Core;assembly=Avalonia.Xaml.Interactions"
+		xmlns:utils="clr-namespace:PrintblocProject.Utils"
+        mc:Ignorable="d"
+		Width="800"
+		Height="600"
+		MinWidth="375"
+		MinHeight="600"
+		WindowStartupLocation="CenterScreen"
+		xmlns:qr="clr-namespace:PrintblocProject.Helpers"
+        x:Class="PrintblocProject.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+		Name="WindowChat"
+        Icon="/Assets/Icon.ico"
+		Background="White"
+        Title="{Binding Title}">
+	<Design.DataContext>
+		<vm:MainWindowViewModel/>
+	</Design.DataContext>
+
+	<Window.Resources>
+		<utils:GridLengthValueConverter x:Key="GridLengthValueConverter" />
+	</Window.Resources>
+
+	<Window.Styles>
+		<Style Selector="ScrollBar:vertical">
+			<Setter Property="Width" Value="12" />
+			<Setter Property="Margin" Value="-12,0,0,0" />
+			<Setter Property="Template">
+				<ControlTemplate>
+					<Border Background="Transparent" UseLayoutRounding="False">
+						<Grid>
+							<Track
+                                IsDirectionReversed="True"
+                                Maximum="{TemplateBinding Maximum}"
+                                Minimum="{TemplateBinding Minimum}"
+                                Orientation="{TemplateBinding Orientation}"
+                                ViewportSize="{TemplateBinding ViewportSize}"
+                                Value="{TemplateBinding Value, Mode=TwoWay}">
+								<Thumb Name="thumb">
+									<Thumb.Template>
+										<ControlTemplate>
+											<Border />
+										</ControlTemplate>
+									</Thumb.Template>
+								</Thumb>
+							</Track>
+						</Grid>
+					</Border>
+				</ControlTemplate>
+			</Setter>
+		</Style>
+		<Style Selector="ScrollBar:vertical /template/ Thumb Border">
+			<Setter Property="Background" Value="#BDBDBD" />
+			<Setter Property="CornerRadius" Value="2" />
+			<Setter Property="Width" Value="6" />
+		</Style>
+		<Style Selector="Button:pointerover /template/ ContentPresenter">
+			<Setter Property="Background" Value="White"/>
+		</Style>
+	</Window.Styles>
+	<Grid>
+		<Grid ColumnDefinitions="100,*">
+			<StackPanel Background="#e8fedf">
+				<Image Width="120" Margin="20">
+					<Image.Source>
+						<SvgImage Source="/Assets/printbloc.svg" />
+					</Image.Source>
+				</Image>
+				<Button Background="{Binding HomeColor}"
+                        BorderBrush="Transparent"
+						Foreground="#0d1137"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Command="{Binding OpenHomeCommand }">
+					<Image Width="13.33" Height="18.65" Margin="20" >
+						<Image.Source>
+							<SvgImage Source="/Assets/home.svg" />
+						</Image.Source>
+					</Image>
+				</Button>
+				<Button Background="{Binding ProfileColor}"
+                        BorderBrush="Transparent"
+						Foreground="#0d1137"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Classes="profile"
+                        Command="{Binding OpenProfilePanelCommand }">
+					<Image Width="13.33" Height="18.65" Margin="20" >
+						<Image.Source>
+							<SvgImage Source="/Assets/profile.svg" />
+						</Image.Source>
+					</Image>
+				</Button>
+				<Button Background="{Binding SettingColor}"
+                        BorderBrush="Transparent"
+						Foreground="#0d1137"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Command="{Binding OpenSettingsCommand}">
+					<Image Width="13.33" Height="18.65" Margin="20" >
+						<Image.Source>
+							<SvgImage Source="/Assets/setting.svg" />
+						</Image.Source>
+					</Image>
+				</Button>
+				
+			</StackPanel>
+			
+			<Button Background="Transparent"
+                    VerticalAlignment="Bottom"
+					Foreground="#FF4242"
+                    Margin="0 0 0 30"
+                    BorderBrush="Transparent"
+                    BorderThickness="0"
+					Command="{Binding SignOutCommand}"
+                    Cursor="Hand">
+				<Image Width="18.67" Height="18.65" Margin="20">
+					<Image.Source>
+						<SvgImage Source="/Assets/logout.svg" />
+					</Image.Source>
+				</Image>
+			</Button>
+
+			<Grid Grid.Column="1" RowDefinitions="80,*">
+				<Grid ZIndex="1" Background="#F2F2F2">
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="Auto"/>
+						<ColumnDefinition Width="*"/>
+					</Grid.ColumnDefinitions>
+
+					<StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+						<Ellipse Stroke="{Binding OnlineStatus}" Fill="{Binding OnlineStatus}" Width="15" Height="15" Margin="5,0" />
+					</StackPanel>
+					<TextBlock Text="{Binding deviceStatusText}" VerticalAlignment="Center" FontWeight="Bold" Foreground="Black" FontSize="16" Grid.Column="1"/>
+					<TextBlock Text="{Binding deviceSetId}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="Black" FontSize="16" Grid.Column="1"/>
+				</Grid>
+
+
+				<Grid Grid.Column="1" ZIndex="-1" Grid.Row="1" ColumnDefinitions="*,Auto">
+					<Grid.Background>
+						<ImageBrush
+                            Source="/Assets/background.png"
+                            Stretch="None"
+                            SourceRect="0,0,152,152"
+                            DestinationRect="0,0,152,152"
+                            TileMode="Tile" />
+					</Grid.Background>
+					<Grid.RowDefinitions>
+						<RowDefinition />
+						<RowDefinition Height="Auto" />
+					</Grid.RowDefinitions>
+
+					<StackPanel IsVisible="{Binding ProfileViewModel.IsOpened}">
+						<views:ProfileSetting VerticalAlignment="Stretch" IsVisible="{Binding ProfileViewModel.IsOpened, Mode=OneWay}" />
+					</StackPanel>
+
+					<StackPanel IsVisible="{Binding SettingsViewModel.IsOpened}">
+						<views:PinSetting VerticalAlignment="Stretch" IsVisible="{Binding SettingsViewModel.IsOpened, Mode=OneWay}" />
+					</StackPanel>
+
+					<StackPanel Margin="20" IsVisible="{Binding IsSignedIn}">
+						<StackPanel>
+							<StackPanel Margin="20">
+								<qr:QRCode Name="qrCode"
+								   Grid.Column="0"
+								   IsVisible="{Binding isWindows}"
+								   Margin="50"
+								   Width="250"
+								   Height="250"
+								   Data="{Binding Data}"
+								   Color="{Binding Color}"
+								   SpaceBrush="{Binding SpaceColor}"
+								   DrawQuietZones="True"
+								   PixelsPerModule="{Binding PixelsPerModule}"
+								   Icon="{Binding IconSource}"
+								   IconScale="{Binding IconScale}"
+								   IconBorderWidth="{Binding IconBorder}"/>
+								<Image x:Name="QRCodeImage" Width="250" IsVisible="{Binding isLinux}" Height="250" Margin="0 10"/>
+								<TextBlock Foreground="Black" Text="{Binding TeamName}" HorizontalAlignment="Center" FontSize="22" Margin="0 10"/>
+							</StackPanel>
+						</StackPanel>
+					</StackPanel>
+				</Grid>
+			</Grid>
+		</Grid>
+
+		<views:SplashScreen VerticalAlignment="Stretch" IsVisible="{Binding isSplash, Mode=OneWay}" />
+		<views:Confirmation IsVisible="{Binding IsOpened, Mode=OneWay}" DataContext="{Binding ConfirmationViewModel}"/>
+		<views:LoginPage VerticalAlignment="Stretch" IsVisible="{Binding IsShowingLoginPage, Mode=OneWay}" />
+	</Grid>
+</Window>
